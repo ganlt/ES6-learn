@@ -37,3 +37,10 @@ s.clear()
 console.log(s) // Set {}
 console.log([...s]) // []
 console.log(s.size) // 0
+
+/**
+ * WeakSet
+ * 与Set结构类似，也是不能重复的值，但是成员只能是对象，不能是其他类型
+ * WeakSet 适合临时存放一组对象，以及存放跟对象绑定的信息
+ * 与Set不同的是，没有clear方法，没有size属性不能遍历
+ */
